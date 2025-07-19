@@ -1,0 +1,19 @@
+body{
+    background-color: #f8f4ec;
+    color: #3e3e3e;
+}
+
+.barra{
+    list-style-type: none;
+    padding: 10px;
+    gap: 150px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.barra li a{
+    color: #3e3e3e;
+    text-decoration: none;
+    font-size: 30px;
+}
