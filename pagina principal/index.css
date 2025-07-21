@@ -1,19 +1,127 @@
-body{
-    background-color: #f8f4ec;
-    color: #3e3e3e;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fdf6e3; 
+    color: #333;
 }
-
-.barra{
-    list-style-type: none;
-    padding: 10px;
-    gap: 150px;
+.borde{
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* sombra negra */
+    border-radius: 10px; /* opcional para bordes suaves */
+}
+header {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2em;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    font-weight: 500;
+}
+.btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.acc{
+    background-color: #f4a6a2;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -120px;
+    margin-left: 60px;
+    padding-right: 60px;
+}
+.acc2{
+    background-color: #f4a6a2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -47px;
+    margin-left: 280px;
+    padding-right: 60px;
+}
+.acc3{
+    background-color: #f4a6a2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -47px;
+    margin-left: 500px;
+    padding-right: 60px;
+}
+main {
+    text-align: center;
+    padding: 5em 2em;
+}
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.uno {
+    font-size: 1.2em;
+    color: #555;
+}
+footer {
+    margin-top: 4em;
+    text-align: center;
+    font-size: 0.9em;
+    color: #999;
 }
 
-.barra li a{
-    color: #3e3e3e;
-    text-decoration: none;
-    font-size: 30px;
+.contenedor {
+    background-color:#fdf6e398 ;
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    width: 50%;
+    height: 400px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.right-content img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* sombra negra */
+  border-radius: 10px; /* opcional para bordes suaves */
 }
