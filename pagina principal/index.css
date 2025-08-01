@@ -39,6 +39,8 @@ nav ul li a{
     cursor: pointer;
 }
 .acc{
+    list-style: none;
+    text-decoration: none;
     background-color: #f4a6a2;
     color: white;
     padding: 0.7em 1.5em;
@@ -130,4 +132,11 @@ footer {
   height: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); 
   border-radius: 10px; 
+}
+
+.consola{
+    margin: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.6); 
+    border-radius: 10px; 
+    height: 700px;
 }
